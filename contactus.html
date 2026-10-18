@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact the Nostra student ecommerce demo.">
+  <title>Nostra | Contact Us</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Fresh styles, simple prices — explore the new season.</div>
+  <header class="site-header"><a class="brand" href="index.html">nostra<span>.</span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links"><a href="index.html">Home</a><a href="new-arrivals.html">New Arrivals</a><a href="most-wanted.html">Most Wanted</a><a href="collections.html">Collections</a><a class="active" href="contactus.html">Contact Us</a></nav>
+  </header>
+  <main class="page-main">
+    <section class="page-intro"><p class="eyebrow">WE'RE HERE TO HELP</p><h1>Let's talk.</h1><p>Have a question about the collection? Send a note using the demo form below.</p></section>
+    <section class="contact-layout section-tight">
+      <div class="contact-note"><p class="eyebrow">GET IN TOUCH</p><h2>A small message<br>can start something good.</h2><p>This is a frontend class project. The form demonstrates validation and does not send or store your personal information.</p><div class="contact-detail"><span>EMAIL</span><p>hello@nostra.example</p></div><div class="contact-detail"><span>RESPONSE TIME</span><p>Demo only — no real inbox is connected.</p></div></div>
+      <form class="contact-form" id="contact-form" novalidate>
+        <label for="contact-name">Your name</label><input id="contact-name" name="name" type="text" placeholder="Enter your name" required minlength="2"><small class="field-error" id="name-error"></small>
+        <label for="contact-email">Email address</label><input id="contact-email" name="email" type="email" placeholder="you@example.com" required><small class="field-error" id="email-error"></small>
+        <label for="contact-subject">Subject</label><input id="contact-subject" name="subject" type="text" placeholder="What is this about?" required>
+        <label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="5" placeholder="Write your message..." required minlength="10"></textarea><small class="field-error" id="message-error"></small>
+        <button class="button button-dark" type="submit">Send message →</button>
+        <p class="form-message" id="contact-feedback" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand brand-footer" href="index.html">nostra<span>.</span></a><p>Everyday style, made simple.</p><div class="footer-links"><a href="collections.html">Collections</a><a href="contactus.html">Contact</a></div><small>© <span class="current-year"></span> Nostra Student Project. Demo website; no real orders are processed.</small></footer>
+</body></html>
