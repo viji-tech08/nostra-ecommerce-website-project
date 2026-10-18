@@ -33,7 +33,7 @@ Nostra is a responsive ecommerce website built using HTML, CSS, and JavaScript. 
 - Adding interactive website functionality
 
 ## Live Demo
-[View Nostra Ecommerce Website](https://viji-tech08.github.io/nostra-ecommerce-website-project/)
+http://viji-tech08.github.io/nostra-ecommerce-website-project/
 
 ## Project Purpose
 This project was developed as part of my Full Stack Development learning journey to practice frontend web development skills.
